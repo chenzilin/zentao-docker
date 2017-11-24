@@ -1,0 +1,5 @@
+zentao:
+  image: "zentao-docker:v1.0"
+  container_name: "zentao-docker"
+  ports:
+      - "172.10.11.211:1097:80"
